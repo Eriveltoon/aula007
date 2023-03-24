@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 export default function NavBar(){
 
-    //Usa o contexto e acessa o conteudo que esta dentro do contexto(theme, toggleTheme)
+    //Usa o contexto e acessa o conteudo que esta dentro do contexto(theme, toggleTheme).
     const{theme, toggleTheme} = useContext(ThemeContex);
     return(
         <div className={theme}>
